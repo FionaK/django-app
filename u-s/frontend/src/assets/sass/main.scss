@@ -1,0 +1,29 @@
+@import '~bulma/bulma';
+@import '~bulma-steps-component/bulma-steps';
+@import '~bulma-extensions/bulma-switch/dist/bulma-switch';
+@import '~bulma-extensions/bulma-pageloader/dist/bulma-pageloader';
+@import '~bulma-extensions/bulma-badge/dist/bulma-badge';
+@import '~vue-multiselect/dist/vue-multiselect.min';
+
+.slide-leave-active,
+.slide-enter-active {
+  transition: 0.3s;
+}
+.slide-enter {
+  transform: translate(100%, 0);
+}
+.slide-leave-to {
+  transform: translate(-100%, 0);
+}
+
+.cardslide-leave-active,
+.cardslide-enter-active {
+  transition: 0.4s;
+}
+
+.cardslide-leave-to,
+.cardslide-enter {
+  opacity: 0;
+  transform: translate(-100%, 0);
+}
+
